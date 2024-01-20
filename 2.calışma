@@ -1,0 +1,91 @@
+
+# liste = [1,2,3,4,5]
+# print(liste)
+# print(liste[4])
+# print(type(liste))
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# indeks = 4
+# yeni_deger = 50
+# liste[indeks] = yeni_deger
+# print(liste)
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# alt_liate = liste[2:4]
+# print(alt_liate)
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#tuple
+# tuple = (10,20,30)
+# print(tuple)
+# print(tuple[1])
+# tuple[1] = 50
+# print(tuple)
+# alt_tuple = tuple[1:4]
+# print(alt_tuple)
+#/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#kumeler (sets)
+# kume = {100,200,300,400,500}
+# print(kume)
+# kume.add(700)
+# print(kume)
+# kume.update([400,900])
+# print(kume)
+#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#dict dictionary sözlük
+# dict = {'anahtar1':'deger1','anahtar2':'deger2'}
+# yeni_anahtar ='yanahtar'
+# yeni_deger = 'ydeger'
+# yeni_anahtar1 = "yanahtar1"
+# yeni_deger1 = 'ydeger1'
+
+# print(dict)
+
+# dict [yeni_anahtar] = dict.pop('anahtar1')
+# dict [yeni_anahtar1] = dict.pop('anahtar2')
+
+
+# dict[yeni_anahtar] = yeni_deger 
+# dict[yeni_anahtar1] = yeni_deger1 
+
+# liste = [{yeni_anahtar1 : yeni_deger1 , yeni_anahtar : yeni_deger}]
+
+# liste_keys = list(dict.keys())
+# print(type(liste_keys))
+
+# liste_values = list(dict.values())
+# print(type(liste_keys()))
+# print(liste_values)
+
+# print(dict)
+
+
+# deger = dict['anahtar1']
+# print(deger)
+
+
+# liste = list(kume)
+# print(kume)
+# print(type(liste))
+#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+sayilar = [10,8,5,3,15]
+en_buyuk = max(sayilar)
+en_kucuk = min(sayilar)
+
+print(en_buyuk)
+print(en_kucuk)
+
+sayilar.append(20)
+sayilar.append(1)
+
+yeni_en_buyuk = max(sayilar)
+yeni_en_kucuk = min(sayilar)
+print(sayilar)
+
+
+aralik = range(1,100)
+print(list(aralik))
+
+import random
+rastgele_sayi = random.randint(1,100)
+print("tutulan sayi",rastgele_sayi)
