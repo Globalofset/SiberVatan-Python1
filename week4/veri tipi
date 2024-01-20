@@ -1,0 +1,54 @@
+# ad = "berat"
+# soyad = "ozcan"
+# yas= "16"
+
+
+
+# karsilama = 'benim adım'+ ' ' + ad + ' ' + soyad + ' ' + " yaşım "  +  yas +  " hoşgeldin "
+# print(karsilama)
+
+ 
+# uzunluk = len(karsilama)
+# print(uzunluk)
+ 
+# print(karsilama[-1])
+
+# print(karsilama[:23])
+# print(karsilama[10:])
+# print(karsilama[2:10:5])
+# print(karsilama[:-3])
+# print(karsilama[::-1])
+
+# karsilama_upper = karsilama.upper()
+# print(karsilama_upper)
+
+# karsilama_lower = karsilama.lower()
+# print(karsilama_lower)
+
+# karsilama_strip = karsilama.strip()
+# print(karsilama_strip)
+
+# karsilama_split = karsilama.split()
+# print(karsilama_split)
+# print(karsilama_split[5])
+
+
+# karsilama_join = "-".join(karsilama)
+# print(karsilama_join)
+
+# karsilama_find = karsilama.find("berat")
+# print(karsilama_find)
+
+# karsilama_startswith = karsilama.startswith()
+# print(karsilama_startswith)
+
+# karsilama_endswith = karsilama.endswith()
+# print(karsilama_endswith)
+# karsilama_replace = karsilama.replace("berat")
+# print(karsilama_replace)
+
+
+
+liste = [1,2,3,4,5]
+print(liste)
+print(liste(4))
