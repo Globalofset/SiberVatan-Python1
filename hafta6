@@ -1,0 +1,154 @@
+"""
+a=90
+b="sibervatan"
+
+num1,num2,num3=5,55,65
+print("sayılar",num1,num2,num3)
+num1+=50
+num2+=55
+num3+=90
+"""
+"""
+numbers=(50,55,65)
+# print(type(numbers)) 
+num1,num2,num3,num4=numbers
+print(num4)
+
+"""
+"""
+a,b,c,d=50,100,50,75
+
+sonuc=(a < b)
+print(sonuc)
+
+sonuc=(a==c)
+print(sonuc)
+
+sonuc=(a<d)
+print(sonuc)
+
+sonuc=(a!=c)
+print(sonuc)
+
+"""
+"""
+username1="ceku"
+username2="arif"
+print("A.R.O.G ' a hoş geldiniz \n")
+username_input=input("bir kullanıcı adı girin  ")
+username_input1=input("bir kullanıcı adı girin  ")
+
+sonuc = (username1==username_input)
+sonuc2=(username2==username_input1)
+sonuc3=(sonuc != sonuc2)
+print("eslesme sonucu  ", sonuc3 )
+
+
+"""
+"""
+database ={
+
+        1 : {
+            "username":"Berat",
+            "eposta" : "berat78@gmail.com",
+            "sifre"   : "123"
+        },
+        2: {
+            "username":"Ozcan",
+            "eposta" : "ozcan78@gmail.com",
+            "sifre"   : "12345"
+
+        }
+}
+
+eposta_input = input("e posta giriniz ")
+sifre_input = input("sifre giriniz ")
+sonuc1 = (eposta_input == database[1]['eposta'])
+sonuc2 = (eposta_input == database[2]['eposta'])
+sonuc3 = (sonuc1 | sonuc2)
+print(f"basarılı : {sonuc3} ")
+sonuc4 = (sifre_input == database[1]['sifre'])
+sonuc5 = (sifre_input == database[2]['sifre'])
+sonuc6 = (sonuc4 & sonuc5)
+print(f"\n süper : {sonuc6}\n hatalı giriş yaptınız.")
+
+"""
+"""
+fruits = ["elma","muz","portakal","kivi"]
+
+print("kiraz" in fruits)
+
+"""
+"""
+x =  y = [10,20,30]
+z = [10,20,30]
+"""
+"""
+vize_notu = float(input("vize notunu girin"))
+final_notu = float(input("final notunu girin"))
+
+
+ortalama = 0.4 * vize_notu  + 0.6 * final_notu 
+ortalama > 50 
+print("Sınıfı geçti") 
+"""
+"""
+girilen_sayi = float(input("sayi girin"))
+durum=("pozitif","negatif")
+[girilen_sayi > 0 and girilen_sayi %2==0]
+print(f"girilen sayı {durum}")
+"""
+"""
+sayi1 = float(input("birinci sayıyı girin"))
+sayi2 = float(input("ikinci sayıyı girin"))
+
+son_sayi = max(sayi1, sayi2)
+print(f"büyük olan sayi {son_sayi}")
+"""
+"""
+dogru_kullanıcı = "berat123"
+dogru_sifre = "brt123"
+
+kullanıcı_adı = input("kullanıcı adını girin")
+sifre = input("şifreyi girin")
+
+if kullanıcı_adı == dogru_kullanıcı and sifre == dogru_sifre:
+    print("giriş başarılı")
+else:
+    print("giriş başarılı değildir")
+if kullanıcı_adı != dogru_kullanıcı and sifre == dogru_sifre:
+    print("kullanıcı  yanlış şifre dogru")
+else:
+    print("giriş başarısız")
+"""
+"""
+sayi1 = float(input("1. sayıyı girin"))
+sayi2 = float(input("2. sayıyı girin"))
+
+print("işlem seç")
+print("1.toplama")
+print("2.çıkarma")
+print("3.çarpma")
+print("4.bölme")
+
+secim = input("seçiminizi yapın  1/2/3/4")
+
+if secim == "1":
+    sonuc = sayi1+sayi2
+elif secim == "2":
+    sonuc = sayi1-sayi2
+elif secim == "3":
+    sonuc = sayi1*sayi2
+elif secim == "4":
+    if sayi2 != 0:
+     sonuc = sayi1/sayi2
+else:
+    print("hata")
+
+print("sonuç",sonuc)
+"""
+
+
+
+
+
