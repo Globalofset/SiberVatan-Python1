@@ -1,0 +1,80 @@
+# """
+# def faktoriyel(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n *  faktoriyel(n-1)
+# sayi = 4
+# print(faktoriyel(sayi))
+# """
+# """
+# x="global degisken"
+
+# def fonksiyon():
+#     x="local degisken"
+#     print(x)
+# fonksiyon()
+# print(x)
+# """
+
+# # while True:
+# #     try:
+# #         x=int(input("x girinizi: "))
+# #         y=int(input("y girinizi: "))
+# #         print(x/y)
+# #     except Exception as ex:
+# #         print("bilgiler yanlış",ex)
+# #     else:
+# #         break
+# #     finally:
+# #         print("işlem başarılı")
+
+# """
+# try:
+#     x=int(input("x girinizi: "))
+#     y=int(input("y girinizi: "))
+#     print(x/y)
+# except ZeroDivisionError:
+#     print("sıfıra bölünme hatası")
+
+# try:
+#     x=int(input("x girinizi: "))
+#     y=int(input("y girinizi: "))
+#     print(x+y)
+# except ValueError:
+#     print("sayı girmeniz gerekiyor")
+
+
+# try:
+#     x=int(input("x girinizi: "))
+#     y=int(input("y girinizi: "))
+#     if y==0:
+# except SyntaxError:
+#     print("duzensiz kod hatası ")
+
+# """
+
+
+# import re
+# def parola_kontrol(parola):
+#     if len(parola)<8:
+#         raise Exception("parola en az 8 karakter olmalıdır")
+#     elif not re.search("[a-z]",parola):
+#         raise Exception("parola kücük harften içermelidir")
+#     elif not re.search("[A-Z]",parola):
+#         raise Exception("parola büyük harf içermelidir")
+#     elif not re.search("/d",parola):
+#         raise Exception("parola sayı içermelidir")
+#     elif not re.search("[8]",parola):
+#         raise Exception("parola spece veya basak içermelidir")
+#     elif not re.search("$  ^",parola):
+#         raise Exception("parolanın sonu ve başlangıcı $ veya ^ olmalıdır")
+#     else:
+#         return True
+
+# try:
+#     parola = input("Parolanızı giriniz: ")
+#     parola_kontrol(parola)
+#     print("girdiğiniz parola doğru.")
+# except Exception as e:
+#     print("hata oluştu: ",e)
